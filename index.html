@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="_body">
+        <input type="text" id="_screen">
+        <div id="_button">
+            <div class="_but" onclick=" emp=emp + '+'; document.querySelector('#_screen').value=emp;" >+</div>
+            <div class="_but" onclick=" emp=emp + '1'; document.querySelector('#_screen').value=emp;">1</div>
+            <div class="_but" onclick=" emp=emp + '2'; document.querySelector('#_screen').value=emp;">2</div>
+            <div class="_but" onclick=" emp=emp + '3'; document.querySelector('#_screen').value=emp;">3</div>
+            <div class="_but" onclick=" emp=emp + '-'; document.querySelector('#_screen').value=emp;">-</div>
+            <div class="_but" onclick=" emp=emp + '4'; document.querySelector('#_screen').value=emp;">4</div>
+            <div class="_but" onclick=" emp=emp + '5'; document.querySelector('#_screen').value=emp;">5</div>
+            <div class="_but" onclick=" emp=emp + '6'; document.querySelector('#_screen').value=emp;">6</div>
+            <div class="_but" onclick=" emp=emp + '*'; document.querySelector('#_screen').value=emp;">*</div>
+            <div class="_but" onclick=" emp=emp + '7'; document.querySelector('#_screen').value=emp;">7</div>
+            <div class="_but" onclick=" emp=emp + '8'; document.querySelector('#_screen').value=emp;">8</div>
+            <div class="_but" onclick=" emp=emp + '9'; document.querySelector('#_screen').value=emp;">9</div>
+            <div class="_but" onclick=" emp=emp + '/'; document.querySelector('#_screen').value=emp;">/</div>
+            <div class="_but" onclick=" emp=' '; document.querySelector('#_screen').value=emp;">C</div>
+            <div class="_but" onclick=" emp=emp + '0'; document.querySelector('#_screen').value=emp;">0</div>
+            <div class="_but" onclick=" let result=eval(emp);emp=result; document.querySelector('#_screen').value=emp;">=</div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>

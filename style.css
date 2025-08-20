@@ -1,0 +1,37 @@
+#_body{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+#_screen{
+    height: 50px;
+    width:85%;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+#_button{
+    width: 350px;
+    height: 360px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+._but{
+    width: 75px;
+    height: 70px;
+    background-color: white;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
